@@ -20,8 +20,8 @@
 ***Citation***:
 > Lenz R, Fischer F, Arnold M, Andrade-Garda JM, Muniategui-Lorenzo SN, Fischer D, Database of Raman and ATR-FTIR spectra of weathered and biofouled polymers, 2023, https://doi.org/10.5281/zenodo.8314801.
 
-##Contents
-This dataset is a spectroscopic library strucutred as a document database.
+## Contents
+This dataset is a spectroscopic library structured as a document database.
 It contains Raman and ATR-FTIR spectra of weathered and biofouled polymers.
 
 > Project MicroPlastiX's Task 4.1 (formerly Task 3.4) examines the biofouling and colonization dynamics of plastic fragments.
@@ -38,3 +38,4 @@ You can download or clone the repository to your local machine and use the `meta
 You can use the `Pipfile` to set up a virtual python environment using [pipenv](https://pipenv.pypa.io/en/latest/) or, alternatively the `requirements.txt` with a virtual env and package manager of your choice.
 When using pipenv, open a terminal in the project directory and run `pipenv install` to install all dependencies.
 Then run `pipenv run streamlit run app.py` to start the app.
+An online preview is available on streamlit: https://mpxspecdb-8dghcbmfbj2sya2hemdh8x.streamlit.app/
