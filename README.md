@@ -20,8 +20,8 @@
 ***Citation***:
 > Lenz R, Fischer F, Arnold M, Andrade-Garda JM, Muniategui-Lorenzo SN, Fischer D, Database of Raman and ATR-FTIR spectra of weathered and biofouled polymers, 2023, https://doi.org/10.5281/zenodo.8314801.
 
-##Contents
-This dataset is a spectroscopic library strucutred as a document database.
+## Contents
+This dataset is a spectroscopic library structured as a document database.
 It contains Raman and ATR-FTIR spectra of weathered and biofouled polymers.
 
 > Project MicroPlastiX's Task 4.1 (formerly Task 3.4) examines the biofouling and colonization dynamics of plastic fragments.
