@@ -20,14 +20,17 @@
 ***Citation***:
 > Lenz R, Fischer F, Arnold M, Andrade-Garda JM, Muniategui-Lorenzo SN, Fischer D, Database of Raman and ATR-FTIR spectra of weathered and biofouled polymers, 2023, https://doi.org/10.5281/zenodo.8314801.
 
-##Contents
-This dataset is a spectroscopic library strucutred as a document database.
-It contains Raman and ATR-FTIR spectra of weathered and biofouled polymers.
+## Contents
+This dataset is a spectroscopic library strucutred as a document database. It contains Raman and ATR-FTIR spectra of weathered and biofouled polymers which can be viewed via an interactive app.
 
 > Project MicroPlastiX's Task 4.1 (formerly Task 3.4) examines the biofouling and colonization dynamics of plastic fragments.
 
-In *in situ* experiments, plastic sheets of **10 different polymers** were deployed in the marine environment across **five geographical locations**.
-Their immersion in stainless steel cages for different intervals, over four seasons, imitates real-world exposure.
+In *in situ* experiments, plastic sheets of **10 different polymers** were deployed in the marine environment across **five geographical locations**. Their immersion in stainless steel cages for different intervals, over four seasons, imitates real-world exposure.
+
+## View the app
+A live version of the app can be found here: [https://robna.github.io/MPX_specDB/](https://robna.github.io/MPX_specDB/).
+> <p align="center"><img src="media/qr-code_robna-github-io-mpx_specdb.svg" alt="https://robna.github.io/MPX_specDB/" width="100" height="100"></p>
+
 ## Local use
 ### Obtaining the data manually
 Individual spectra can be be found in the `spectra` folder, while all available information on the samples is stored in the `metadata,json` file.
