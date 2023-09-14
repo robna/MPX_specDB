@@ -209,7 +209,7 @@ def main():
         data=spectra.to_csv().encode('utf-8'),
         file_name='spectra.csv',
         mime='text/csv',
-        disabled=spectra.shape[0] == 0,
+        disabled=True #spectra.shape[0] == 0,
     )
 
 
