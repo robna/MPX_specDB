@@ -20,7 +20,7 @@
 - ²University of A Coruña, Campus da Zapateira s/n, 15071, A Coruña, Spain
 
 ***Citation***:
-> Lenz R, Fischer F, Arnold M, Andrade-Garda JM, Muniategui-Lorenzo SN, Fischer D, Database of Raman and ATR-FTIR spectra of weathered and biofouled polymers, 2023, https://doi.org/10.5281/zenodo.8314801.
+> Lenz R, Fischer F, Arnold M, Fernández-González V, Moscoso-Pérez CM, Andrade-Garda JM, Muniategui-Lorenzo S, Fischer D, Database of Raman and ATR-FTIR spectra of weathered and biofouled polymers, 2023, https://doi.org/10.5281/zenodo.8314801.
 
 ## Contents
 This dataset is a spectroscopic library strucutred as a document database. It contains Raman and ATR-FTIR spectra of weathered and biofouled polymers which can be viewed via an interactive app.
