@@ -49,12 +49,18 @@ def main():
     col1.title('MicroPlastiX - Weathered polymer and biofilm spectra')
     col1.markdown('''
                   *Authors:*
-                  - [Robin Lenz](https://orcid.org/0000-0003-4156-7380)
-                  - [Franziska Fischer](https://orcid.org/0000-0002-2317-6784)
-                  - [Melinda Arnold](https://www.ipfdd.de/de/forschung/institut-makromolekulare-chemie/zentrum-makromolekulare-strukturanalyse/spektroskopie-mikroplastik/mitarbeiter/)
-                  - [José Manuel Andrade-Garda](https://orcid.org/0000-0003-1020-5213)
-                  - [Soledad Norberta Muniategui Lorenzo](https://orcid.org/0000-0001-5946-3366)
-                  - [Dieter Fischer](https://www.ipfdd.de/de/organisation/organigramm/personal-homepages/dr-dieter-fischer/)
+                  - [Robin Lenz¹](https://orcid.org/0000-0003-4156-7380)
+                  - [Franziska Fischer¹](https://orcid.org/0000-0002-2317-6784)
+                  - [Melinda Arnold¹](https://www.ipfdd.de/de/forschung/institut-makromolekulare-chemie/zentrum-makromolekulare-strukturanalyse/spektroskopie-mikroplastik/mitarbeiter/)
+                  - [Verónica Fernández-González²](https://orcid.org/0000-0002-6890-6154)
+                  - [Carmen María Moscoso Pérez²](https://orcid.org/0000-0002-2451-3535)
+                  - [José Manuel Andrade-Garda²](https://orcid.org/0000-0003-1020-5213)
+                  - [Soledad Muniategui-Lorenzo²](https://orcid.org/0000-0001-5946-3366)
+                  - [Dieter Fischer¹](https://www.ipfdd.de/de/organisation/organigramm/personal-homepages/dr-dieter-fischer/)
+
+                  *Affiliations*:
+                  - ¹Leibniz Institut für Polymerforschung Dresden, Hohe Straße 6, 01069 Dresden, Germany
+                  - ²University of A Coruña, Campus da Zapateira s/n, 15071, A Coruña, Spain
                   ''')
     new_chap('Introduction')
     col1, _, col2 = st.columns([3,1,2])
