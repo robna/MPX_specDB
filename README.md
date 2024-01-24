@@ -20,7 +20,12 @@
 - ²University of A Coruña, Campus da Zapateira s/n, 15071, A Coruña, Spain
 
 ***Citation***:
+
+To cite the most recent release of the MPX_specDB code and data please refer to:
 > Lenz R, Fischer F, Arnold M, Fernández-González V, Moscoso-Pérez CM, Andrade-Garda JM, Muniategui-Lorenzo S, Fischer D, Database of Raman and ATR-FTIR spectra of weathered and biofouled polymers, 2023, https://doi.org/10.5281/zenodo.8314801.
+
+The raw spectra collection can be found on the chemical research data repository [Radar4Chem](https://doi.org/10.22000/1820) and is citeable as:
+> Lenz R, Fischer F, Arnold M, Fernández-González V, Moscoso-Pérez CM, Andrade-Garda JM, Muniategui-Lorenzo S, Fischer D, MicroPlastiX SpecDB, https://doi.org/10.22000/1820.                                                                                                                                                                                                                                                                                                                                
 
 ## Contents
 This dataset is a spectroscopic library strucutred as a document database. It contains Raman and ATR-FTIR spectra of weathered and biofouled polymers which can be viewed via an interactive app.
