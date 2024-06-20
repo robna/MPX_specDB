@@ -56,7 +56,7 @@ def main():
                   - [Carmen María Moscoso Pérez²](https://orcid.org/0000-0002-2451-3535)
                   - [José Manuel Andrade-Garda²](https://orcid.org/0000-0003-1020-5213)
                   - [Soledad Muniategui-Lorenzo²](https://orcid.org/0000-0001-5946-3366)
-                  - [Dieter Fischer¹](https://www.ipfdd.de/de/organisation/organigramm/personal-homepages/dr-dieter-fischer/)
+                  - [Dieter Fischer¹](https://orcid.org/0000-0003-4458-2631)
 
                   *Affiliations*:
                   - ¹Leibniz Institut für Polymerforschung Dresden, Hohe Straße 6, 01069 Dresden, Germany
