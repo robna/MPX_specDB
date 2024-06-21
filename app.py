@@ -5,6 +5,7 @@ import requests
 import tarfile
 import zipfile
 from io import BytesIO
+import time
 
 from app_utils import sidebar_filters, new_chap, df_expander
 from plots import spectra_plot, metadata_viewer
@@ -54,7 +55,6 @@ def get_data(doi, mdf=mdf, spf=spf):
 def refresh_files():
     shutil.rmtree(sp)
     mdf.unlink()
-    st.rerun()
 
 
 @st.cache_data()
@@ -94,10 +94,11 @@ def wavelength_to_wavenumber(w, excitation=532.0):
 def main():
 
     doi = st.sidebar.text_input('Dataset DOI:', '10.22000/1820')
-    st.sidebar.markdown(f'[>> Go to dataset <<](https://dx.doi.org/{doi})')
+    st.sidebar.markdown(f'[>>  Go to data deposit  <<](https://dx.doi.org/{doi})')
     with st.sidebar.status("Downloading data...", expanded=True) as status:
+        start_time = time.time()
         get_data(doi)
-        status.update(label="Download complete!", state="complete", expanded=False)
+        status.update(label=f"Download completed in {(time.time() - start_time):.0f} s.", state="complete", expanded=False)
     
     st.sidebar.button('Reload data', on_click=refresh_files)
 
@@ -111,7 +112,7 @@ def main():
     
     with open(md/'authors.md', 'r') as file:
         authors = file.read()
-    col1.markdown(authors, unsafe_allow_html=True)
+    col1.markdown(authors)
     
     new_chap('Introduction')
     col1, _, col2 = st.columns([3,1,2])
