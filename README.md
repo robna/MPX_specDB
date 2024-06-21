@@ -21,7 +21,7 @@
 
 ***Citation***:
 
-To cite the most recent release of the MPX_specDB code and data please refer to:
+To cite the most recent release of the MPX_specDB code please refer to:
 > Lenz R, Fischer F, Arnold M, Fernández-González V, Moscoso-Pérez CM, Andrade-Garda JM, Muniategui-Lorenzo S, Fischer D, Database of Raman and ATR-FTIR spectra of weathered and biofouled polymers, 2023, https://doi.org/10.5281/zenodo.8314801.
 
 The raw spectra collection can be found on the chemical research data repository [Radar4Chem](https://doi.org/10.22000/1820) and is citeable as:
@@ -36,11 +36,11 @@ In *in situ* experiments, plastic sheets of **10 different polymers** were deplo
 
 ## View the app
 A live version of the app can be found here: [https://robna.github.io/MPX_specDB/](https://robna.github.io/MPX_specDB/).
-> <p align="center"><img src="media/qr-code_robna-github-io-mpx_specdb.svg" alt="https://robna.github.io/MPX_specDB/" width="100" height="100"></p>
+> <p align="center"><img src="data/media/qr-code_robna-github-io-mpx_specdb.svg" alt="https://robna.github.io/MPX_specDB/" width="100" height="100"></p>
 
 ## Local use
 ### Obtaining the data manually
-Individual spectra can be be found in the `spectra` folder, while all available information on the samples is stored in the `metadata,json` file.
+Individual spectra can be be found in the `data/spectra` folder, while all available information on the samples is stored in the `data/metadata.json` file. Both will only be populated after the first run of the app.
 The spectra file names follow the pattern `[Region]_[Polymer]_[Biofilm]_[Analysis]_[hash].csv` where `hash` holds the first 8 characters of the sha256 hash of the spectrum data, in order to create unique file names.
 You can download or clone the repository to your local machine and use the `metadata.json` file to search for spectra of interest (for convenice, excel users can also take a look at the `metadata.xlsx` file, which contains the same information).
 

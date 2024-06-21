@@ -1,2 +1,4 @@
 .*
 !.gitignore
+data/spectra
+data/meta/metadata.json
