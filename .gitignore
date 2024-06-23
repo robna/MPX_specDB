@@ -1,4 +1,5 @@
 .*
 !.gitignore
+!.streamlit
 data/spectra
 data/meta/metadata.json
