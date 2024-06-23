@@ -94,7 +94,6 @@ def wavelength_to_wavenumber(w, excitation=532.0):
 def main():
 
     doi = st.sidebar.text_input('Dataset DOI:', '10.22000/1820')
-    st.sidebar.markdown(f'[>>  Go to data deposit  <<](https://dx.doi.org/{doi})')
     with st.sidebar.status("Downloading data...", expanded=True) as status:
         start_time = time.time()
         get_data(doi)
@@ -102,8 +101,8 @@ def main():
     
     st.sidebar.button('Reload data', on_click=refresh_files)
 
-    st.sidebar.markdown('---')
-    st.sidebar.markdown('[<p align="center"><img src="https://radar4chem.radar-service.eu/radar/image/DmaGuUIxEhpEYXIF/institution-logo.png" alt="https://dx.doi.org/10.22000/1820" height="60"></p>](https://dx.doi.org/10.22000/1820)', unsafe_allow_html=True)
+    st.sidebar.markdown(f'[>>  Go to data deposit  <<](https://dx.doi.org/{doi})')
+    st.sidebar.markdown(f'[<p align="center"><img src="https://radar4chem.radar-service.eu/radar/image/DmaGuUIxEhpEYXIF/institution-logo.png" alt="https://dx.doi.org/{doi}" height="60"></p>](https://dx.doi.org/{doi})', unsafe_allow_html=True)
     st.sidebar.markdown('---')
     
     col1, col2 = st.columns([3,1])
