@@ -12,11 +12,11 @@
 - [Carmen María Moscoso Pérez²](https://orcid.org/0000-0002-2451-3535)
 - [José Manuel Andrade-Garda²](https://orcid.org/0000-0003-1020-5213)
 - [Soledad Muniategui-Lorenzo²](https://orcid.org/0000-0001-5946-3366)
-- [Dieter Fischer¹](https://www.ipfdd.de/de/organisation/organigramm/personal-homepages/dr-dieter-fischer/)
+- [Dieter Fischer¹](https://orcid.org/0000-0003-4458-2631)
                   
 
 ***Affiliations***:
-- ¹Leibniz Institut für Polymerforschung Dresden, Hohe Straße 6, 01069 Dresden, Germany
+- ¹Leibniz Institute of Polymer Research Dresden, Hohe Straße 6, 01069 Dresden, Germany
 - ²University of A Coruña, Campus da Zapateira s/n, 15071, A Coruña, Spain
 
 ***Citation***:
@@ -39,16 +39,16 @@ A live version of the app can be found here: [https://robna.github.io/MPX_specDB
 > <p align="center"><img src="data/media/qr-code_robna-github-io-mpx_specdb.svg" alt="https://robna.github.io/MPX_specDB/" width="100" height="100"></p>
 
 ## Local use
-### Obtaining the data manually
-Individual spectra can be be found in the `data/spectra` folder, while all available information on the samples is stored in the `data/metadata.json` file. Both will only be populated after the first run of the app.
-The spectra file names follow the pattern `[Region]_[Polymer]_[Biofilm]_[Analysis]_[hash].csv` where `hash` holds the first 8 characters of the sha256 hash of the spectrum data, in order to create unique file names.
-You can download or clone the repository to your local machine and use the `metadata.json` file to search for spectra of interest (for convenice, excel users can also take a look at the `metadata.xlsx` file, which contains the same information).
-
 ### Using the app
 You can use the `Pipfile` to set up a virtual python environment using [pipenv](https://pipenv.pypa.io/en/latest/) or, alternatively the `requirements.txt` with a virtual env and package manager of your choice.
 When using pipenv, open a terminal in the project directory and run `pipenv install` to install all dependencies.
 Then run `pipenv run streamlit run app.py` to start the app.
 
+### Assessing the data manually
+Individual spectra can be found in the `data/spectra` folder, while all available information on the samples is stored in the `data/meta/metadata.json` file. Both will only be populated after the first run of the app or can be obtained from [Radar4Chem](https://doi.org/10.22000/1820).
+The spectra filenames follow the pattern `[region]_[polymer]_[biofilm]_[analysis]_[hash].csv` where `hash` holds the first 8 characters of the sha256 hash of the spectrum data, in order to create unique filenames.
+You can download or clone the repository to your local machine and use the `metadata.json` file to search for spectra of interest, e.g. by opening it in the Firefox browser which has some basic capabilities for navigating and searching in json files.
+
 # License
-Software code in this repository is licensed as specified in the [LICENSE](LICENSE.md) file.
+Software code in this repository is licensed as specified in the [LICENSE.md](https://github.com/robna/MPX_specDB/blob/main/LICENSE.md) file.
 Spectroscopic data and meta data is licensed under [CC BY SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).

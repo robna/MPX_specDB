@@ -9,5 +9,5 @@
 - [Dieter Fischer¹](https://orcid.org/0000-0003-4458-2631)
 
 *Affiliations*:
-- ¹Leibniz Institut für Polymerforschung Dresden, Hohe Straße 6, 01069 Dresden, Germany
+- ¹Leibniz Institute of Polymer Research Dresden, Hohe Straße 6, 01069 Dresden, Germany
 - ²University of A Coruña, Campus da Zapateira s/n, 15071, A Coruña, Spain
